@@ -1,0 +1,49 @@
+
+.list{
+    width: 200px;
+    background-color: #fff;
+    float: left;
+}
+.content{
+    background-color: #fff;
+    width: 1184px;
+    height: 200px;
+    margin-left: 226px;
+}
+.content .clear{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.content-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 21px;
+}
+.content-text div{
+    width: 110px;
+}
+.content-text div input{
+    width: 80px;
+    height: 20px;
+}
+.canvas{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 1181px;
+    height: 518px;
+    background-color: '#ccc';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#colorChoose{
+    width: 100px;
+    height: 22px;
+}
+#colorshow{
+    width: 100px;
+    height: 145px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}

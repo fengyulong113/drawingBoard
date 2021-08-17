@@ -1,0 +1,68 @@
+#btnaddRect {
+    background-image: url('../../asset/image/rect.png');  
+}
+#btnaddCircle{
+    background-image: url('../../asset/image/circle.png'); 
+}
+#btnaddLine{
+    background-image: url('../../asset/image/line.png'); 
+}
+#btnaddText{
+    background-image: url('../../asset/image/text.png');  
+}
+#btnaddImage{
+    background-image: url('../../asset/image/image.png');  
+}
+#btnaddBrokenLine{
+    background-image: url('../../asset/image/brokenLine.png');  
+}
+#addClear{
+    background-image: url('../../asset/image/clear.png');  
+}
+#btnBrush{
+    background-image: url('../../asset/image/brush.png');  
+}
+#btnEraser{
+    background-image: url('../../asset/image/eraser.png');   
+}
+#btnaddRect, 
+#btnaddCircle,
+#btnaddLine, 
+#btnaddText,
+#btnaddImage,
+#btnaddBrokenLine, 
+#addClear, 
+#btnBrush,
+#btnEraser
+{
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.draw{
+    display: flex;
+    justify-content: flex-start;
+}
+li{
+    width: 150px;
+}
+
+input{
+    width: 150px;
+    
+}
+.typeCheck{
+   width: 16px;
+   margin-left: 15px;
+   margin-top: 5px;
+}
+
+.typeInput{
+    background-color: #fff;
+}
+
+.canvasdraw{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 10px;
+}
