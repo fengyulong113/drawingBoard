@@ -4,6 +4,8 @@ const BtnArc = (props) => {
 
     const addArc = () => {
         if (!canvasDom) {
+
+            
             return
         }
         const ctx = canvasDom.getContext('2d')
